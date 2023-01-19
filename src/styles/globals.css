@@ -1,0 +1,536 @@
+:root{
+    --colorOne:#000000;/* background-color*/
+    --colorTwo:#f0f0f6;
+    --colorTree:#FFF;
+    --colorFour:#cfcfcd;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color:var(--colorOne);
+}
+
+.global-container{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:5rem;
+    /*margin-left: 17.5rem;
+    margin-right: 13.8rem;*/
+
+
+
+}
+.header-img-container {
+    margin-left: 17.5rem;
+    margin-right: 13.8rem;
+    margin-bottom: 9rem;
+}
+
+.section-one-title{
+    
+    display: flex; 
+    font-family:'Chakra Petch', sans-serif;
+    margin-left: 17.5rem;
+    margin-right: 13.8rem;
+    margin-left: 17.5rem;
+    margin-right: 13.8rem
+    
+}
+
+.jsconf{
+    color: var(--colorTwo);
+    font-size: 9vw;
+    font-weight: 700;
+    line-height: 10.688rem;
+}
+.colombia{
+    color: var(--colorTwo);
+    font-size:3vw;
+    font-weight: 400;
+    margin-top: 5.4rem;
+}
+
+.section-one-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3.75rem;
+    margin-left: 17.5rem;
+    margin-right: 13.8rem;
+}
+
+.content-one{
+    color: var(--colorTwo);
+    display: flex;
+    gap: 0.313rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--colorTwo);
+    font-family: 'Space Grotesk',sans-serif;
+    font-size: 1.8vw;
+    font-weight:700;
+    line-height: 51.04px;
+
+}
+.th{
+    font-family:'Space Mono', sans-serif;
+    font-size: 0.8vw;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-top:-10px;
+   
+}
+
+.content-two{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--colorTwo
+    );
+    border: 2px solid var(--colorTwo);
+    border-top-color:transparent;
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 2.2vw;
+    font-weight: 300;
+    line-height: 28.07px;
+    margin-top:-2px;
+}
+
+.content-two-img{
+    display: none;
+}
+.content-tree{
+    background-color:var(--colorTwo);   
+    font-family: 'Chakra Petch',sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    line-height: 23.4px;
+    
+}
+
+.section-two-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 17.5rem;
+    margin-right: 13.8rem;
+    margin-bottom: 6.063rem;
+}
+
+.section-two-title{
+    margin-bottom:3.875rem;
+    width:47%;
+    background-color: var(--colorTwo);    
+    text-align: center;
+    font-family: 'Chakra Petch',sans-serif;
+    font-weight: 400;
+    font-size:1.5vw;
+
+} 
+.section-two-cards-container{
+    display: flex;    
+    justify-content:space-between;
+   
+}
+.card-container{
+    
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:var(--colorTwo);
+   }
+   
+.card-container img{
+   
+    
+    
+}
+
+.card-name{
+    font-family: 'Chakra Petch',sans-serif;
+    font-size: 1.3vw;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+.card-email{
+    font-family: 'Chakra Petch',sans-serif;
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+.section-tree-container{
+    margin-left: 17.5rem;
+    margin-right: 13.8rem;
+    margin-bottom: 3.625rem;
+    display: 
+    flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 
+    center;
+    border: 1px solid var(--colorTwo);
+}
+.section-tree-title{
+    color: var(--colorTwo);
+    margin-top: 2rem;
+    font-family: 'Space Grotesk',sans-serif;
+    font-size: 2vw;
+    font-weight: 
+    700;
+}
+
+.section-tree-content-container{
+    color: var(--colorTwo);
+    font-family: 'Space Grotesk',sans-serif;
+    font-size: 1.2vw;
+    font-weight: 
+    400;
+}
+.section-tree-form-container{
+    display: flex
+    ;
+    gap: none;
+    align-items: center;
+    justify-content: center;
+   
+}
+form{
+    margin-top: 1.2vw;
+    margin-bottom: 2.5vw;
+    display: flex;
+    width: 100%;
+    
+}
+.section-tree-form-container input[placeholder]{
+    width: 100%;
+    height: 2.4vw;
+    text-align: center;
+    border: none;
+    color: var(--colorFour);
+    background-color: var(--colorTree);
+    font-family:'Space Grotesk',sans-serif;
+
+}
+.section-tree-form-container button{
+    background-color: var(--colorTwo);
+    border: none;
+    font-family: 'Chakra Petch',sans-serif;
+    width: 100%;
+    height: 2.4vw;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: right;
+    margin-left: 17.5rem;
+    margin-right: 13.8rem;
+    margin-bottom: 14.813rem;
+}
+.footer-item-text{
+    padding: 10px 20px;
+    background-color: var(--colorTwo);
+    font-family: 'Space Grotesk',sans-serif;
+    font-weight: 700;
+    font-size: 1.1vw;
+
+}
+.footer-item-twitter{
+    padding: 0.5rem;
+    display: flex;    
+    align-items: center;
+    background-color:var(--colorTwo);
+    margin-left: 2.125rem;
+}
+.footer-item-instagram{
+    padding:0.5rem 0.5rem;
+    display: flex;    
+    align-items: center;
+    background-color:var(--colorTwo);
+    margin-left: 2.125rem;
+    margin-left: 17px;
+
+}
+/*brakepoint*/
+
+
+/*Movile ---------------------------*/
+
+@media(max-width:881px){
+
+
+.global-container{
+  
+   /* margin-left:3.5rem ;
+    margin-right:3.6rem;*/
+}
+
+.header-img-container{
+    display: none;
+}
+
+.section-one-title{    
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.6rem
+}
+
+.jsconf{
+    color: var(--colorTwo);
+    font-size:73px;    
+}
+.colombia{
+    color: var(--colorTwo);
+    font-size:34px;
+    margin-top:-3rem;
+}
+
+.section-one-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left:0 ;
+    margin-right:0;
+    margin-bottom: 3.75rem;
+   
+}
+
+.content-one{
+    color: var(--colorTwo);
+    display: flex;
+    gap: 0.313rem;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-top:1px solid var(--colorTwo);
+    border-bottom: 1px solid var(--colorTwo);
+    font-family: 'Chakra Petch',sans-serif;
+    font-size: 23px;
+    font-weight:500;
+    line-height: 51.04px;
+
+}
+.th{
+    font-family:'Space Mono', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right:5px;
+    margin-top:-10px;
+   
+}
+
+.content-two-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+
+.content-two{
+    
+    border:none;   
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 28px;
+    line-height: 100%;
+    letter-spacing:1px;
+}
+
+.content-two-img{
+    display: block;
+    
+}
+.content-two-img img{
+    
+    width: 24px;
+}
+
+.content-tree{
+    background-color:var(--colorTwo);
+    height:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Chakra Petch',sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+.section-two-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left:3.5rem ;
+    margin-right:3.6rem;
+    margin-bottom:0;
+}
+
+.section-two-title{
+    margin-bottom:2rem;
+    width:215px;
+    background-color: var(--colorTwo);    
+    text-align: center;
+    
+    font-family: 'Chakra Petch',sans-serif;
+    font-weight: 400;
+    font-size:22px;
+
+} 
+.section-two-cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+   
+}
+.card-container{
+    
+    width: 210px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:var(--colorTwo);
+   }
+   
+.card-container img{
+    width: 210px;
+    height: 223px;
+}
+
+.card-name{
+    font-family: 'Chakra Petch',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+.card-email{
+    font-family: 'Chakra Petch',sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 87px;
+}
+.section-tree-container{
+    padding-bottom:91px ;
+    margin-left:0rem ;
+    margin-right:0;
+    margin-bottom: 3.625rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid var(--colorTwo);
+}
+.section-tree-title{
+    color: var(--colorTwo);
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    font-family: 'Space Grotesk',sans-serif;
+    font-size: 26px;
+    font-weight:700;
+}
+
+.section-tree-content-container{
+    color: var(--colorTwo);
+   
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    font-family: 'Space Grotesk',sans-serif;
+    text-align:center;
+    font-size:26px;
+    font-weight: 400;
+}
+.section-tree-content-one{
+    margin-left:3.5rem ;
+    margin-right:3.6rem;
+}
+.section-tree-form-container{
+    display: flex;
+    gap: none;
+    margin-left:3.5rem ;
+    margin-right:3.6rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+   
+}
+form{
+    margin-top: 1.2vw;
+    margin-bottom: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.section-tree-form-container input[placeholder]{
+    width: 100%;
+    height: 22px;
+    text-align: center;
+    border: none;
+    color: var(--colorFour);
+    background-color: var(--colorTree);
+    font-family:'Space Grotesk',sans-serif;
+    font-size: 18px;
+
+}
+.section-tree-form-container button{
+    background-color: var(--colorTwo);
+    border: none;
+    font-family: 'Chakra Petch',sans-serif;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 0.5rem;
+    height: 22px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content:center;
+    margin-left:3.5rem ;
+    margin-right:3.6rem;
+    margin-bottom: 14.813rem;
+    
+   
+}
+.footer-item-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    width: 119px;
+    background-color: var(--colorTwo);
+    font-family: 'Space Grotesk',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.footer-item-twitter{
+    padding: 0.5rem;
+    
+    display: flex;    
+    align-items: center;
+    background-color:var(--colorTwo);
+    margin-left: 2.125rem;
+}
+.footer-item-instagram{
+    padding:0.5rem 0.5rem;
+    display: flex;    
+    align-items: center;
+    background-color:var(--colorTwo);
+    margin-left: 2.125rem;
+    margin-left: 17px;
+    
+
+}
+}
