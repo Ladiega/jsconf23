@@ -126,7 +126,7 @@ body{
 
 .section-two-title{
     margin-bottom:3.875rem;
-    width:47%;
+    width:100%;
     background-color: var(--colorTwo);    
     text-align: center;
     font-family: 'Chakra Petch',sans-serif;
@@ -148,11 +148,7 @@ body{
     color:var(--colorTwo);
    }
    
-.card-container img{
-   
-    
-    
-}
+
 
 .card-name{
     font-family: 'Chakra Petch',sans-serif;
@@ -235,6 +231,7 @@ form{
     margin-bottom: 14.813rem;
 }
 .footer-item-text{
+    
     padding: 10px 20px;
     background-color: var(--colorTwo);
     font-family: 'Space Grotesk',sans-serif;
@@ -243,14 +240,14 @@ form{
 
 }
 .footer-item-twitter{
-    padding: 0.5rem;
+    padding: 0.2rem 1rem;
     display: flex;    
     align-items: center;
     background-color:var(--colorTwo);
     margin-left: 2.125rem;
 }
 .footer-item-instagram{
-    padding:0.5rem 0.5rem;
+    padding:0.2rem 1rem;
     display: flex;    
     align-items: center;
     background-color:var(--colorTwo);
@@ -496,9 +493,10 @@ form{
 
 .footer-container{
     display: flex;
+    gap: 0.1;
     justify-content:center;
-    margin-left:3.5rem ;
-    margin-right:3.6rem;
+    margin-left:auto ;
+    margin-right:auto;
     margin-bottom: 14.813rem;
     
    
@@ -516,7 +514,7 @@ form{
 
 }
 .footer-item-twitter{
-    padding: 0.5rem;
+    padding: 0.2rem 1rem;
     
     display: flex;    
     align-items: center;
@@ -524,7 +522,7 @@ form{
     margin-left: 2.125rem;
 }
 .footer-item-instagram{
-    padding:0.5rem 0.5rem;
+    padding:0.2rem 1rem;
     display: flex;    
     align-items: center;
     background-color:var(--colorTwo);

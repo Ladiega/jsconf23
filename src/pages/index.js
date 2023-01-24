@@ -25,7 +25,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-		 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
     
       </Head>
     <body> 
@@ -45,14 +44,14 @@ export default function Home() {
       <section>
 			<div className="section-one-container">
 				<div className="section-one-title">
-					<div className="jsconf">JsConf</div>
+					<div className="jsconf">JSConf</div>
 					<div className="colombia">Colombia</div>					
 				</div>
 				<div className="section-one-content">
 					<div className="content-one">
 						<div className="item">10</div>
 						<div className="item th">TH</div>
-						<div className="item">ANNIVERSARY</div>						
+						<div className="item">ANNIVERSARY AND FINAL COLOMBIA EDITION</div>						
 					</div>
 					<div className="content-two-container">
 						<div className="content-two">
@@ -68,7 +67,7 @@ export default function Home() {
 					</div>
 
 					<div className="content-tree">
-						LAST EDITION EVER
+						FINAL EDITION IN COLOMBIA
 					</div>
 				</div>
 			</div>
