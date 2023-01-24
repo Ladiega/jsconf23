@@ -526,16 +526,16 @@ form{
 
 }
 .footer-item-twitter a{
-    padding-top:0.3rem;
-    padding-bottom: auto;
+    /*padding-top:0.3rem;
+    padding-bottom: auto;*/
     display: flex;    
     align-items: center;
     background-color:var(--colorTwo);
     margin-left: 2.125rem;
 }
 .footer-item-instagram a{
-    padding-top:0.3rem ;
-    padding-bottom: auto;
+    /*padding-top:0.3rem ;
+    padding-bottom: auto;*/
     display: flex;    
     align-items: center;
     background-color:var(--colorTwo);
