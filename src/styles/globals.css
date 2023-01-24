@@ -525,7 +525,7 @@ form{
     font-size: 18px;
 
 }
-.footer-item-twitter{
+.footer-item-twitter a{
     padding-top:0.3rem;
     padding-bottom: auto;
     display: flex;    
@@ -533,7 +533,7 @@ form{
     background-color:var(--colorTwo);
     margin-left: 2.125rem;
 }
-.footer-item-instagram{
+.footer-item-instagram a{
     padding-top:0.3rem ;
     padding-bottom: auto;
     display: flex;    
