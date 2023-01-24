@@ -87,7 +87,7 @@ export default function Home() {
                             
    
 						</div>
-						<div className="card-name"><Link href='https://twitter.com/rauchg'>GUILLEMO RAUCHG</Link> </div>
+						<div className="card-name"><Link href='https://twitter.com/rauchg' target='_blank'>GUILLEMO RAUCH</Link> </div>
 						
 					</div>
 					<div className="card-container">
@@ -98,7 +98,7 @@ export default function Home() {
                             alt="Rectangle" />
 
 						</div>
-						<div className="card-name"><Link href="https://twitter.com/sarah_edo">SARAH DRASNER</Link> </div>
+						<div className="card-name"><Link href="https://twitter.com/sarah_edo" target='_blank'>SARAH DRASNER</Link> </div>
 						
 					</div>
 					<div className="card-container">
@@ -108,7 +108,7 @@ export default function Home() {
                             src={Rafael}
                              alt='Rectangle'   />
 						</div>
-						<div className="card-name"><Link href='https://twitter.com/_rafaelgss'> Rafael Gonzaga</Link></div>
+						<div className="card-name"><Link href='https://twitter.com/_rafaelgss' target='_blank'> RAFAEL GONZAGA</Link></div>
 						
 					</div>
 				</div>
@@ -134,7 +134,7 @@ export default function Home() {
 			<div className="footer-container">
 				<div className="footer-item-text">FOLLOW US</div>
 				<div className="footer-item-twitter">
-				<Link href="https://twitter.com/jsconfco">
+				<Link href="https://twitter.com/jsconfco" target='_blank'>
           			<Image 
             		src={Twitter} 
             		alt="twitter"/>
@@ -142,7 +142,7 @@ export default function Home() {
 				</div>
 				
 				
-			<div className="footer-item-instagram"><Link href='https://www.instagram.com/jsconfco/'>
+			<div className="footer-item-instagram"><Link href='https://www.instagram.com/jsconfco/' target='_blank'>
           <Image 
             src={Instagram}
             alt="instagram"/>
