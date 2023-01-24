@@ -67,7 +67,7 @@ export default function Home() {
 					</div>
 
 					<div className="content-tree">
-						FINAL EDITION IN COLOMBIA
+						FINAL EDITION IN COLOMBIA				
 					</div>
 				</div>
 			</div>
@@ -87,8 +87,8 @@ export default function Home() {
                             
    
 						</div>
-						<div className="card-name">GUILLERMO RAUCH</div>
-						<div className="card-email">@RAUCH</div>
+						<div className="card-name"><Link href='https://twitter.com/rauchg'>GUILLEMO RAUCHG</Link> </div>
+						
 					</div>
 					<div className="card-container">
 						<div className="card-img">
@@ -98,8 +98,8 @@ export default function Home() {
                             alt="Rectangle" />
 
 						</div>
-						<div className="card-name">SARAH DRASNER</div>
-						<div className="card-email">@SARAH_EDO</div>
+						<div className="card-name"><Link href="https://twitter.com/sarah_edo">SARAH DRASNER</Link> </div>
+						
 					</div>
 					<div className="card-container">
 						<div className="card-img">
@@ -108,8 +108,8 @@ export default function Home() {
                             src={Rafael}
                              alt='Rectangle'   />
 						</div>
-						<div className="card-name">Rafael Gonzaga</div>
-						<div className="card-email">@_RAFAELGSS</div>
+						<div className="card-name"><Link href='https://twitter.com/_rafaelgss'> Rafael Gonzaga</Link></div>
+						
 					</div>
 				</div>
 			</div>
@@ -124,7 +124,7 @@ export default function Home() {
 					<div className="section-tree-form-container">
 						<form action="">
 						<input type="email" placeholder="YOUR EMAIL"/>
-							<button type="submit">SUBCRIBE</button>
+							<button type="submit">SUBSCRIBE</button>
 						</form>
 					</div>
 				</div>
@@ -133,18 +133,25 @@ export default function Home() {
 		<footer>
 			<div className="footer-container">
 				<div className="footer-item-text">FOLLOW US</div>
-				<div className="footer-item-twitter"><Link href="#">
-          <Image 
-            src={Twitter} 
-            alt="twitter"/></Link></div>
-				<div className="footer-item-instagram"><Link href="#">
+				<div className="footer-item-twitter">
+				<Link href="https://twitter.com/jsconfco">
+          			<Image 
+            		src={Twitter} 
+            		alt="twitter"/>
+				</Link>
+				</div>
+				
+				
+			<div className="footer-item-instagram"><Link href='https://www.instagram.com/jsconfco/'>
           <Image 
             src={Instagram}
             alt="instagram"/>
-            </Link></div>
+			</Link>
+            </div>
 			</div>
 
 		</footer>
+		
         </div>   
     </body> 
 
