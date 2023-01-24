@@ -134,19 +134,24 @@ export default function Home() {
 			<div className="footer-container">
 				<div className="footer-item-text">FOLLOW US</div>
 				<div className="footer-item-twitter">
+				<div className="img-container">	
 				<Link href="https://twitter.com/jsconfco" target='_blank'>
           			<Image 
             		src={Twitter} 
             		alt="twitter"/>
 				</Link>
 				</div>
+				</div>
 				
 				
-			<div className="footer-item-instagram"><Link href='https://www.instagram.com/jsconfco/' target='_blank'>
-          <Image 
-            src={Instagram}
-            alt="instagram"/>
-			</Link>
+			<div className="footer-item-instagram">
+				<div className="img-container">
+				<Link href='https://www.instagram.com/jsconfco/' target='_blank'>
+		  			<Image 
+            		src={Instagram}
+            		alt="instagram"/>
+				</Link>
+				</div>
             </div>
 			</div>
 
