@@ -1,3 +1,5 @@
+import React from 'react'
+
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -15,7 +17,7 @@ import Twitter from '../../public/img/twitter.svg'
 
 
 
-export default function Home() {
+function Home() {
   return (
     <div>
       <Head>
@@ -137,6 +139,7 @@ export default function Home() {
 				<div className="img-container">	
 				<Link href="https://twitter.com/jsconfco" target='_blank'>
           			<Image 
+					width={20}
             		src={Twitter} 
             		alt="twitter"/>
 				</Link>
@@ -148,6 +151,7 @@ export default function Home() {
 				<div className="img-container">
 				<Link href='https://www.instagram.com/jsconfco/' target='_blank'>
 		  			<Image 
+					width={15}
             		src={Instagram}
             		alt="instagram"/>
 				</Link>
@@ -164,3 +168,4 @@ export default function Home() {
     </div>
   )
 }
+export default Home

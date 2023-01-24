@@ -246,7 +246,7 @@ form{
     font-size: 1.1vw;
 
 }
-.footer-item-twitter{
+.footer-item-twitter {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 0.5rem;
@@ -257,9 +257,9 @@ form{
     text-align: center;
     background-color:var(--colorTwo);
     margin-left: 2.125rem;
-    background-color: red;
+    
 }
-.footer-item-instagram{
+.footer-item-instagram {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.3rem;
