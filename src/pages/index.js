@@ -126,40 +126,13 @@ function Home() {
 					<div className="section-tree-form-container">
 						<form action="">
 						<input type="email" placeholder="YOUR EMAIL"/>
-							<button type="submit"> SUBSCRIBE</button>
+							<button type="submit"><Link href='https://jsconf.us2.list-manage.com/subscribe/post?u=69218559b03fdf4ec80ae278a&id=a6426be338'>SUBSCRIBE</Link> </button>
 						</form>
 					</div>
 				</div>
 			</div>
 		</section>
-		<footer>
-			<div className="footer-container">
-				<div className="footer-item-text">FOLLOW US</div>
-				<div className="footer-item-twitter">
-				<div className="img-container">	
-				<Link href="https://twitter.com/jsconfco" target='_blank'>
-          			<Image 
-					width={20}
-            		src={Twitter} 
-            		alt="twitter"/>
-				</Link>
-				</div>
-				</div>
-				
-				
-			<div className="footer-item-instagram">
-				<div className="img-container">
-				<Link href='https://www.instagram.com/jsconfco/' target='_blank'>
-		  			<Image 
-					width={15}
-            		src={Instagram}
-            		alt="instagram"/>
-				</Link>
-				</div>
-            </div>
-			</div>
-
-		</footer>
+		
 		<Footer/>
 			
         </div>   

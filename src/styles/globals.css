@@ -17,9 +17,7 @@ body{
     background-color:var(--colorOne);
 }
 
-a{
-    color:var(--colorTwo);
-}
+
 
 .global-container{
     display:flex ;
@@ -162,6 +160,9 @@ a{
     text-decoration: underline;
 
 }
+.card-name a{
+    color:var(--colorTwo);
+}
 .card-email{
     font-family: 'Chakra Petch',sans-serif;
     font-size: 1.1vw;
@@ -220,7 +221,7 @@ form{
     font-family:'Space Grotesk',sans-serif;
 
 }
-.section-tree-form-container button {
+.section-tree-form-container button{
     background-color: var(--colorTwo);
     color: var(--colorOne);
     border: none;
@@ -228,6 +229,11 @@ form{
     width: 100%;
     height: 2.4vw;
 }
+.section-tree-form-container button a{
+    color: var(--colorOne);
+    text-decoration: none;
+}
+
 
 .footer-container{
     display: flex;
