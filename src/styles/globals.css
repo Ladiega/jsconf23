@@ -533,17 +533,16 @@ form{
     font-size: 18px;
 
 }
-.footer-item-twitter a{
-    /*padding-top:0.3rem;
-    padding-bottom: auto;*/
+.footer-item-twitter {
+    
     display: flex;    
     align-items: center;
     background-color:var(--colorTwo);
     margin-left: 2.125rem;
+   
 }
-.footer-item-instagram a{
-    /*padding-top:0.3rem ;
-    padding-bottom: auto;*/
+.footer-item-instagram {
+
     display: flex;    
     align-items: center;
     background-color:var(--colorTwo);
