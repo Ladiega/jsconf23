@@ -249,7 +249,7 @@ form{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 0.5rem;
-    padding-bottom: auto;
+   
     display: flex;    
     align-items: center;
     justify-content: center;
@@ -262,7 +262,7 @@ form{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.3rem;
-  padding-bottom: auto;
+  
     display: flex;    
     align-items: center;
     background-color:var(--colorTwo);
