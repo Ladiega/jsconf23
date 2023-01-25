@@ -3,7 +3,7 @@ import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 
-
+import Footer from 'components/footer'
 
 import Image from 'next/image'
 import Guillermo from  '../../public/img/GuillermoRauch2.jpg'
@@ -29,7 +29,7 @@ function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
     
       </Head>
-    <body> 
+    <div className='body'> 
     
       <div className="global-container">
 
@@ -106,7 +106,7 @@ function Home() {
 					<div className="card-container">
 						<div className="card-img">
 						<Image
-                            width={138}
+                            width={133}
                             src={Rafael}
                              alt='Rectangle'   />
 						</div>
@@ -126,7 +126,7 @@ function Home() {
 					<div className="section-tree-form-container">
 						<form action="">
 						<input type="email" placeholder="YOUR EMAIL"/>
-							<button type="submit">SUBSCRIBE</button>
+							<button type="submit"> SUBSCRIBE</button>
 						</form>
 					</div>
 				</div>
@@ -160,9 +160,10 @@ function Home() {
 			</div>
 
 		</footer>
-		
+		<Footer/>
+			
         </div>   
-    </body> 
+    </div> 
 
      
     </div>

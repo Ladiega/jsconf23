@@ -18,8 +18,7 @@ body{
 }
 
 a{
-  color: var(--colorTwo);
-  cursor: pointer;
+    color:var(--colorTwo);
 }
 
 .global-container{
@@ -221,7 +220,7 @@ form{
     font-family:'Space Grotesk',sans-serif;
 
 }
-.section-tree-form-container button{
+.section-tree-form-container button {
     background-color: var(--colorTwo);
     color: var(--colorOne);
     border: none;
